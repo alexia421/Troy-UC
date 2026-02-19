@@ -76,6 +76,7 @@ public class Motoare extends GLOBALS {
             pid.setTargetTps(0);
             shooter1.setPower(0);
             shooter2.setPower(0);
+
             pid.reset();
 
             return;
